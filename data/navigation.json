@@ -1,0 +1,36 @@
+{
+  "title": "プロジェクト Wiki",
+  "pages": [
+    {
+      "title": "🏠 ホーム",
+      "url": "/",
+      "active": true
+    },
+    {
+      "title": "🚀 はじめの一歩！",
+      "url": "/pages/getting-started.html"
+    },
+    {
+      "title": "🔧 インストール（超簡単）",
+      "url": "/pages/installation.html"
+    },
+    {
+      "title": "🎮 使い方（ヒミツ）",
+      "url": "/pages/usage.html"
+    },
+    {
+      "title": "🤖 API（難しいやつ）",
+      "url": "/pages/api.html"
+    },
+    {
+      "title": "❓ よくある質問（笑）",
+      "url": "/pages/faq.html",
+      "class": "wiggle"
+    },
+    {
+      "title": "🎁 隠しページ",
+      "url": "/pages/secret.html",
+      "class": "special"
+    }
+  ]
+}

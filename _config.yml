@@ -1,0 +1,19 @@
+title: "スーパーすごいプロジェクト Wiki"
+description: "世界一すごいプロジェクトのWikiサイト"
+baseurl: ""
+url: "https://YOUR_USERNAME.github.io/YOUR_REPOSITORY"
+
+# GitHub Pages設定
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+# マークダウン設定
+markdown: kramdown
+highlighter: rouge
+
+# 除外するファイル
+exclude:
+  - README.md
+  - node_modules/
+  - .DS_Store

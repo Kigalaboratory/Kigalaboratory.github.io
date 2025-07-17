@@ -1,0 +1,17 @@
+{
+  "site": {
+    "name": "スーパーすごいプロジェクト Wiki",
+    "description": "世界一すごいプロジェクトの概要、使い方、APIリファレンスなど",
+    "repository": "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY"
+  },
+  "features": {
+    "darkMode": true,
+    "search": true,
+    "analytics": false
+  },
+  "social": {
+    "github": "https://github.com/YOUR_USERNAME",
+    "twitter": "https://twitter.com/YOUR_USERNAME",
+    "email": "your@email.com"
+  }
+}

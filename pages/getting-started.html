@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>はじめの一歩！ - プロジェクト Wiki</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="bounce-icon icon-book"></span>
+                    <h1><a href="../index.html" style="color: inherit; text-decoration: none;">プロジェクト Wiki</a></h1>
+                </div>
+                <div class="header-buttons">
+                    <a href="#" class="btn btn-green">
+                        <span class="icon-edit"></span>
+                        編集
+                    </a>
+                    <a href="#" class="btn btn-gray">
+                        <span class="icon-history"></span>
+                        履歴
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="sidebar-box">
+                    <div class="sidebar-header">ページ</div>
+                    <nav>
+                        <a href="../index.html" class="sidebar-item">🏠 ホーム</a>
+                        <a href="getting-started.html" class="sidebar-item active">🚀 はじめの一歩！</a>
+                        <a href="installation.html" class="sidebar-item">🔧 インストール（超簡単）</a>
+                        <a href="usage.html" class="sidebar-item">🎮 使い方（ヒミツ）</a>
+                        <a href="api.html" class="sidebar-item">🤖 API（難しいやつ）</a>
+                        <a href="faq.html" class="sidebar-item wiggle">❓ よくある質問（笑）</a>
+                        <a href="secret.html" class="sidebar-item special">🎁 隠しページ</a>
+                    </nav>
+                    <button class="add-page-btn">
+                        <span class="icon-plus"></span>
+                        新しいページを追加
+                    </button>
+                </div>
+
+                <div class="sidebar-box">
+                    <div class="sidebar-header">クローン</div>
+                    <div class="clone-section">
+                        <div class="clone-input">
+                            <code>https://github.com/user/project.git</code>
+                            <button class="copy-btn icon-copy"></button>
+                        </div>
+                        <div class="clone-description">
+                            リポジトリをクローンするには、<code>git clone</code>コマンドを使用します。
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="content">
+                <article>
+                    <h1 class="rainbow-title">🚀 はじめの一歩！</h1>
+
+                    <p>
+                        ようこそ、勇敢なる冒険者よ！このページでは、スーパーすごいプロジェクトの世界への第一歩を踏み出すお手伝いをします。
+                    </p>
+
+                    <div class="alert alert-yellow">
+                        <span class="alert-icon">🎯</span>
+                        <div>
+                            <strong>このページで学べること</strong>
+                            <br>
+                            <small>プロジェクトの基本概念、準備するもの、最初の実行方法</small>
+                        </div>
+                    </div>
+
+                    <section>
+                        <h2>🎯 目標設定</h2>
+                        <p>このチュートリアルを終えると、以下のことができるようになります：</p>
+                        <ul class="feature-list">
+                            <li class="feature-item">
+                                <span class="feature-emoji">✅</span>
+                                <span>プロジェクトの基本概念を理解する</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-emoji">✅</span>
+                                <span>必要な環境を整える</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-emoji">✅</span>
+                                <span>「Hello World」を実行する</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-emoji">✅</span>
+                                <span>次のステップを把握する</span>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>🛠️ 必要なもの</h2>
+                        <p>始める前に、以下のものを準備してください：</p>
+                        <ul class="steps-list">
+                            <li>Node.js (v14以上) - <a href="https://nodejs.org/" class="link">公式サイト</a>からダウンロード</li>
+                            <li>お気に入りのテキストエディタ（VS Code推奨）</li>
+                            <li>コーヒーまたは紅茶（重要！）☕</li>
+                            <li>やる気と好奇心 🔥</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>🎉 Hello Worldを実行してみよう</h2>
+                        <p>早速、最初のプログラムを実行してみましょう：</p>
+
+                        <div class="code-block">
+                            <button class="copy-code-btn">コピー</button>
+                            <pre><code>// hello.js
+const { MagicProject } = require('super-awesome-project');
+
+const project = new MagicProject({
+    name: 'はじめての魔法',
+    level: 'beginner'
+});
+
+project.sayHello()
+    .then(() => console.log('🎉 成功！魔法の世界へようこそ！'))
+    .catch(err => console.error('😭 あれ？何かがおかしいぞ...', err));</code></pre>
+                        </div>
+
+                        <p>実行方法：</p>
+                        <div class="code-block">
+                            <pre><code>$ node hello.js</code></pre>
+                        </div>
+                    </section>
+
+                    <section>
+                        <h2>🎊 次のステップ</h2>
+                        <p>Hello Worldが成功したら、次は以下のページをチェックしてみてください：</p>
+
+                        <div class="feature-list">
+                            <li class="feature-item">
+                                <span class="feature-emoji">🔧</span>
+                                <span><a href="installation.html" class="link">詳細なインストール手順</a></span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-emoji">🎮</span>
+                                <span><a href="usage.html" class="link">基本的な使い方</a></span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-emoji">🤖</span>
+                                <span><a href="api.html" class="link">API リファレンス</a></span>
+                            </li>
+                        </div>
+                    </section>
+
+                    <div class="alert alert-green">
+                        <span class="feature-emoji">🎈</span>
+                        <div>
+                            <strong>困ったときは</strong>
+                            <br>
+                            <small>何か問題が発生したら、<a href="faq.html" class="link">よくある質問</a>をチェックするか、GitHubのIssueを作成してください！</small>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    © 2023 ワクワクプロジェクト. <span class="wiggle" style="display: inline-block;">All rights reserved (たぶん)</span>
+                    <small>このサイトは真面目に見えて実は全然真面目じゃないよ</small>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link github icon-github"></a>
+                    <a href="#" class="social-link twitter icon-twitter"></a>
+                    <a href="#" class="social-link email icon-email"></a>
+                    <a href="#" class="social-link cookie icon-cookie"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
